@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Sample from './components/Sample';
+import Statetask from './components/Statetask';
+import Stateorder from './components/Stateorder';
+import Statefile from './components/Statefile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Sample/> */}
+      <Statetask></Statetask>
+       {/* <Stateorder></Stateorder> */}
+      {/* <Statefile></Statefile> */}
     </div>
   );
 }
